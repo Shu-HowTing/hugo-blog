@@ -1,15 +1,28 @@
-<h3 class="avatar-widget">
-    <img src="/avatar.png" alt="Avatar" class="avatar-image">
+<!-- <h3 class="avatar-widget">
+    <img src="/img/avatar1.png" alt="Avatar" class="avatar-image">
     <p class="avatar-slogan">Stay foolish, Stay hungry!</p>
-</h3>
+</h3> -->
 
-<!-- 
-    <h3 class="widget-title"> <i class="far fa-file"></i> {{ i18n "Articles_latest" }}</h3>
-<ul class="widget-list">
-    {{ range first 10 (where (where .Site.Pages "Type" "in" (slice "post" "posts")) "Kind" "page") }}
-    <li>
-        <a href="{{ .Permalink }}" title="{{ .Title }}" target="_blank">{{ .Title }}</a>
-    </li>
-    {{ end }}
-</ul>
- -->
+<div class="avatar-widget">
+    <img src="/img/avatar1.png" alt="Avatar" class="avatar-image">
+    <p class="avatar-slogan">What's past is prologue.</p>
+    
+    <div style="display: flex;">
+        <div>
+            <a class="info-icon" href="mailto:white_ding@163.com" title="Email" target="_blank" style="margin-inline:5px"> 
+                <i class="fa fa-envelope-square" style="margin-inline:8px"></i>
+            </a>        
+        </div>
+        <div>
+            <a class="info-icon" href="https://github.com/Shu-HowTing" title="Github" target="_blank" style="margin-inline:5px"> 
+                <i class="fab fa-github" style="margin-inline:8px"></i>
+            </a>
+        </div>
+        <div>
+            <a class="info-icon" href="https://www.linkedin.com/in/white-ding-7b5151a7/"  title="Linkdin"  target="_blank" style="margin-inline:5px"> 
+                <i class="fab fa-linkedin" style="margin-inline:8px"></i>
+            </a>
+        </div>
+    </div>
+</div>
+

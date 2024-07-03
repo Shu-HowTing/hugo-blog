@@ -7,9 +7,9 @@ Maupassant theme, ported to Hugo.
 
 一款非常简洁、性能高的Hugo主题，适配不同的设备（PC，Mobile等）。 主要是基于 Typecho [Cho](https://github.com/pagecho/maupassant/), 从 [JokerQyou](https://github.com/JokerQyou/maupassant-hugo) forked，修改和添加了很多功能而成，如GA统计、最近的文章、标签云、自定义菜单、按日期归档等 .
 
-## Preview
+<!-- ## Preview
 
-![Maupassant 主题预览](./preview.png "Maupassant 主题预览")
+![Maupassant 主题预览](./preview.png "Maupassant 主题预览") -->
 
 ## 功能特性
 

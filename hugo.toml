@@ -2,7 +2,7 @@ baseURL = 'http://example.org/'
 # languageCode = 'en-us'
 # title = 'My New Hugo Site'
 languageCode = "zh-CN"
-title = "White's blog"
+title = "White"
 theme = "maupassant"
 # favicon = "favicons/"
 

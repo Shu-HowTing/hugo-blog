@@ -72,7 +72,7 @@ body {
     /**
     font-family:"TIBch", "Classic Grotesque W01", "Helvetica Neue", Arial, "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "WenQuanYi Micro Hei", SimSun, sans-serif;
     **/
-    font-family: "Iowan Old Style", "Ovo", "Hoefler Text", Georgia, "Times New Roman", "TIBch", "Source Han Sans", "PingFangSC-Regular", "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", "Droid Sans Fallback", "WenQuanYi Micro Hei", sans-serif;
+    font-family: "Iowan Old Style", "Ovo", "Hoefler Text", "Georgia", "Times New Roman", "TIBch", "Source Han Sans", "PingFangSC-Regular", "Hiragino Sans GB", "STHeiti", "Microsoft Yahei", "Droid Sans Fallback", "WenQuanYi Micro Hei", "sans-serif";
     /**-webkit-font-smoothing: antialiased;**/
     -moz-osx-font-smoothing: grayscale;
 }
@@ -177,21 +177,19 @@ textarea {
     border-bottom-color:transparent;
 }
 #header {
-    padding:58px 0 0;
+    padding: 80px 0 0;
     text-align:left;
 }
 #header .col-group {
     border-bottom: 1px solid #ddd;
 }
 .site-name h1{
-    padding: 0;
+    padding: 0px;
     margin:0;
 }
 #logo {
-    /**
-    font:bold 42px/1.12 "Times New Roman", Georgia, Times, sans-serif;
-    **/
-    font-size: 37.5px;
+    /* font:bold 42px/1.12 "Times New Roman", Georgia, Times, sans-serif; */
+    font-size: 38px;
     font-weight: bold;
     color:#555;
 }
@@ -202,11 +200,15 @@ textarea {
     color:#777;
 }
 .description {
-    margin:5px 0 0;
-    color:#999;
+    margin: 12px 0 0;
+    color:#6e5c5c;
+    font-family: Times New Roman;
+    /* Monaco, Consolas, "Lucida Console", "Courier New", Times New Roman,  Arial, sans-serif; */
+    font-size: 18px;
+    font-style: italic;
 }
 #nav-menu {
-    margin:10px 0 -1px;
+    margin: 8px 0 -1px;
     padding:0;
     float:right;
 }
@@ -233,8 +235,12 @@ textarea {
     overflow: hidden;
 }
 #search input {
-    padding: 1em 2em .75em 1em;
-    line-height: 1.5;
+    /* border-width: 48px; */
+    padding: 0.5em 1em .5em 1em;
+    line-height: 1.5em;
+    border-radius: 10px; /* 设置圆角半径为 10px */
+    /* border-color: rgb(58, 69, 80); 设置背景颜色为红色 */
+    border: 2px solid #465f6f;
 }
 #search button {
     position:absolute;
@@ -243,9 +249,9 @@ textarea {
     font-size: 20px;
     line-height: 1.5;
     border:none;
-    padding:14px 0;
+    padding:6px 6px;
     width:auto;
-    height:48px;
+    height:40px;
     color:#444;
     background:none;
 }
@@ -257,27 +263,30 @@ textarea {
 }
 .container {
     width:1150px;
-    padding:0 60px;
+    /* padding:10px; */
+    padding: 12px 60px; /* 设置容器的上下内边距为 10，左右内边距为 60 像素 */
     margin:0 auto;
 }
 #secondary {
     float:right;
     width:245px;
     border-left:1px solid #ddd;
+    /* border-top:10px solid #ddd; */
     padding-left:35px;
     word-wrap:break-word;
     display:block;
     padding-top:40px;
 }
+
 #main {
     padding-top:20px;
     float:left;
 }
 .post {
-    padding:25px 0 15px;
+    padding: 0px 0 15px;
 }
 .post-title {
-    margin:0;
+    margin:0px;
     color:#555;
     text-align:left;
     /**font:bold 25px/1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif;**/
@@ -318,7 +327,7 @@ textarea {
     margin-left: 24px;
     padding: 0 10px 0 14px;
     background: #879fae;
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
     border-radius: 2px;
 }
@@ -904,16 +913,18 @@ img.alignright {
 
 /* for archive page starts*/
 .post-archive {
-    font-size: 15px;
-    line-height: 2;
-    padding-bottom: .8em; 
+    font-size: 16px;
+    line-height: 20pt;
+    padding-bottom: 2.8em; 
 }
 .post-archive h2 {
       margin: 0;
-      font: bold 25px / 1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif; 
+      font: bold 22px / 1.1 "ff-tisa-web-pro", Cambria, "Times New Roman", Georgia, Times, sans-serif; 
 }
 .post-archive .date {
-      padding-right: .7em; 
+    /* padding-left: 1em; */
+    padding-right: 1em;
+    font-size: 16px; 
 }
 /* for archive page ends*/
 

@@ -4,10 +4,15 @@
     </section>
 
     <section class="widget">
+        {{ partial "avatar" . }}
+    </section>
+
+    <section class="widget">
         {{ partial "recent_post" . }}
     </section>
 
-    {{ partial "ads" . }}
+     <!-- 展示广告 -->
+    <!-- {{ partial "ads" . }} -->
 
     <section class="widget">
         {{ partial "categories" . }}

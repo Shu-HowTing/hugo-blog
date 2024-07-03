@@ -177,7 +177,7 @@ textarea {
     border-bottom-color:transparent;
 }
 #header {
-    padding: 80px 0 0;
+    padding: 70px 0 0;
     text-align:left;
 }
 #header .col-group {
@@ -597,6 +597,36 @@ textarea.textarea {
 #response {
     margin-bottom:.8em;
 }
+
+/* 右侧头像的属性 */
+.avatar-widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+}
+
+.avatar-image {
+    width: 150px; /* 头像的宽度 */
+    height: 150px; /* 头像的高度 */
+    border-radius: 50%; /* 使头像呈现圆形 */
+    object-fit: cover; /* 确保图片完全填充圆形 */
+    border: 2px solid #ddd; /* 可选：添加边框 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 添加悬浮阴影 */
+    transition: box-shadow 0.3s ease; /* 添加过渡效果 */
+}
+
+.avatar-image:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* 鼠标悬停时增加阴影效果 */
+}
+
+.avatar-slogan {
+    margin-top: 20px; /* 标语与头像之间的间距 */
+    font-size: 16px; /* 标语字体大小 */
+    color: #333; /* 标语颜色 */
+    text-align: center; /* 居中对齐 */
+}
+
 .widget-list {
     list-style:none;
     padding:0;

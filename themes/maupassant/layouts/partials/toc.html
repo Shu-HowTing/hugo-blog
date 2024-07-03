@@ -2,10 +2,11 @@
 <style type="text/css">
     .post-toc {
         position: fixed;
-        width: 200px;
-        margin-left: -210px;
+        width: 220px;
+        margin-left: -300px;
         padding: 5px 10px;
-        font-family: Athelas, STHeiti, Microsoft Yahei, serif;
+        /* font-family: Athelas, STHeiti, Microsoft Yahei, serif; */
+        font-family: serif;
         font-size: 12px;
         border: 1px solid rgba(0, 0, 0, .07);
         border-radius: 5px;
@@ -26,19 +27,20 @@
 
     .post-toc .post-toc-title {
         width: 100%;
-        margin: 0 auto;
-        font-size: 20px;
+        margin: 10 auto;
+        font-size: 18px;
         font-weight: 400;
         text-transform: uppercase;
         text-align: center;
     }
 
     .post-toc .post-toc-content {
-        font-size: 15px;
+        font-size: 16px;
+        /* margin: 30 auto; */
     }
 
     .post-toc .post-toc-content>nav>ul {
-        margin: 10px 0;
+        margin: 10px 10px;
     }
 
     .post-toc .post-toc-content ul {
@@ -60,10 +62,10 @@
         }
     }
 </style>
-<div class="post-toc" style="position: absolute; top: 188px;">
-    <h2 class="post-toc-title">{{ i18n "toc" }}</h2>
+<div class="post-toc" style="position: absolute; top: 220px;">
+    <h2 class="post-toc-title"> <i class="fas fa-folder-open"></i> {{ i18n "toc" }}</h2>
     <div class="post-toc-content">
-        {{.TableOfContents}}
+        {{ .TableOfContents}}
     </div>
 </div>
 <script type="text/javascript">

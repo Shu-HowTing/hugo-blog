@@ -2,3 +2,4 @@
 *.log
 *.iml
 *.pyc
+.hugo_build.lock

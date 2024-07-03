@@ -16,7 +16,7 @@ disablePathToLower = true
 hasCJKLanguage = true
 summaryLength = 200
 
-disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要和utteranc同时开启
+# disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要和utteranc同时开启
 
 [author]
   name = "whiteding"
@@ -51,6 +51,20 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
   name = "Android Gradle权威指南"
   url = "http://yuedu.baidu.com/ebook/14a722970740be1e640e9a3e"
 
+# 右边栏个人练习方式
+[[params.avatar]]
+  title = "email"
+  url = "mailto:white_ding@163.com"
+  icon = "fa fa-envelope-square"
+[[params.avatar]]
+  title = "linkedin"
+  url = "https://www.linkedin.com/in/white-ding-7b5151a7/"
+  icon = "fab fa-linkedin"
+[[params.avatar]]
+  title = "github"
+  url = "https://github.com/Shu-HowTing"
+  icon = "fab fa-github"
+
 # ## 侧边栏广告位
 # [[params.ads]]
 #   title = "【2019双12】ALL IN CLoud 低至1折"
@@ -73,9 +87,9 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
   theme = "github-light"
 ## 配置 waline 评论系统,教程参考 https://waline.js.org/
 [params.waline]
-  enable = false
+  enable = true
   placeholder = "说点什么吧..."
-  serverURL = "Your waline serverURL" #换成你的serverURL
+  serverURL = "https://white-waline.netlify.app/.netlify/functions/comment" #换成你的serverURL
 ## 开启版权声明，协议名字和链接都可以换
 [params.cc]
     name = "知识共享署名-非商业性使用-禁止演绎 4.0 国际许可协议"
@@ -90,13 +104,6 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
 
 ## 配置网站菜单
 [menu]
-
-#   [[menu.main]]
-#     identifier = "home"
-#     name = "<i class='fas fa-home'></i> 首页"
-#     url = "/home/"
-#     weight = 1
-
   [[menu.main]]
     identifier = "tags"
     name = "<i class='fas fa-tag'></i> 标签"

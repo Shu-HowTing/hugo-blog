@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="zh-CN">
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+<head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,7 +22,7 @@
     <meta name="description" content="《Go 实战笔记》系列作者，《Golang Gin 实战》系列作者，《Android Gradle权威指南》作者，现负责技术管理">
         
     <meta name="author" content="whiteding">
-    <meta property="og:url" content="http://localhost:1313/about/">
+    <meta property="og:url" content="http://example.org/about/">
     <link rel="shortcut icon" href='/favicon.ico'  type="image/x-icon">
 
     <link rel="stylesheet" href='/css/normalize.css'>
@@ -39,6 +39,11 @@
     
         <link rel="stylesheet" href='/css/other.css'>
     
+
+    
+    
+
+
 </head>
 
 <body>
@@ -48,7 +53,7 @@
         <div class="col-group">
             <div class="site-name ">
                 
-                    <a id="logo" href="http://localhost:1313/">
+                    <a id="logo" href="http://example.org/">
                         White
                     </a>
                 
@@ -56,7 +61,7 @@
             </div>
             <div>
                 <nav id="nav-menu" class="clearfix">
-                    <a class="" href="http://localhost:1313/"> <i class="fas fa-home"></i>Home</a>
+                    <a class="" href="http://example.org/"> <i class="fas fa-home"></i>Home</a>
                     
                     <a  href="/tags/" title="&lt;i class=&#39;fas fa-tag&#39;&gt;&lt;/i&gt; 标签"><i class='fas fa-tag'></i> 标签</a>
                     
@@ -238,37 +243,16 @@
     </article>
     
     
+    
 
     
-    
-    <div class="post bg-white">
-      <script src="https://utteranc.es/client.js"
-            repo= "your github repo"
-            issue-term="pathname"
-            theme="github-light"
-            crossorigin="anonymous"
-            async>
-      </script>
-    </div>
-    
-    
-    
-    <div id="waline"></div>
-    <script src="//cdn.jsdelivr.net/npm/@waline/client"></script>
-    <script>
-        Waline({
-            el: '#waline',
-            serverURL: 'https:\/\/white-waline.netlify.app\/.netlify\/functions\/comment',
-            placeholder: '说点什么吧...',
-        });
-    </script>
     
 
 </div>
 
                     <footer id="footer">
     <div>
-        &copy; 2024 <a href="http://localhost:1313/">White By whiteding</a>
+        &copy; 2024 <a href="http://example.org/">White By whiteding</a>
         
     </div>
     <br />
@@ -310,14 +294,17 @@
 
     <script src='/js/douban.js'></script>
 
+
+
+
                 </div>
 
                 <div id="secondary">
     <section class="widget">
-        <form id="search" action='http://localhost:1313/search' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
+        <form id="search" action='http://example.org/search' method="get" accept-charset="utf-8" target="_blank" _lpchecked="1">
       
       <input type="text" name="q" maxlength="20" placeholder="Search">
-      <input type="hidden" name="sitesearch" value="http://localhost:1313/">
+      <input type="hidden" name="sitesearch" value="http://example.org/">
       <button type="submit" class="submit icon-search"></button>
 </form>
     </section>
@@ -325,10 +312,9 @@
     <section class="widget">
         
 <div class="avatar-widget">
-    <img src="/img/avatar1.png" alt="Avatar" class="avatar-image">
+    <img src="img/avatar1.png" alt="Avatar" class="avatar-image">
 
     <p class="avatar-slogan">What's past is prologue.</p>
-
     <div class="widget-list" style="display: flex" >
         
         <li>
@@ -361,11 +347,11 @@
 <ul class="widget-list">
     
     <li>
-        <a href="http://localhost:1313/post/second/" title="Second" target="_blank">Second</a>
+        <a href="http://example.org/post/second/" title="Second" target="_blank">Second</a>
     </li>
     
     <li>
-        <a href="http://localhost:1313/post/first_blog/" title="sdsdsadd" target="_blank">sdsdsadd</a>
+        <a href="http://example.org/post/first_blog/" title="Test" target="_blank">Test</a>
     </li>
     
 </ul>
@@ -378,7 +364,7 @@
         <h3 class="widget-title"><a href='/categories/'> <i class="far fa-folder"></i> Categories</a></h3>
 <ul class="widget-list">
     
-    <li><a href="http://localhost:1313/categories/%E6%9C%8D%E5%8A%A1%E5%8E%9F%E7%90%86/">服务原理 (1)</a></li>
+    <li><a href="http://example.org/categories/%E6%9C%8D%E5%8A%A1%E5%8E%9F%E7%90%86/">服务原理 (1)</a></li>
     
 </ul>
     </section>
@@ -387,13 +373,13 @@
         <h3 class="widget-title"><a href='/tags/'> <i class="fas fa-tag"></i> Tags</a></h3>
 <div class="tagcloud">
     
-    <a href="http://localhost:1313/tags/benchmark/">Benchmark</a>
+    <a href="http://example.org/tags/benchmark/">benchmark</a>
     
-    <a href="http://localhost:1313/tags/etcd/">Etcd</a>
+    <a href="http://example.org/tags/etcd/">etcd</a>
     
-    <a href="http://localhost:1313/tags/go/">Go</a>
+    <a href="http://example.org/tags/go/">go</a>
     
-    <a href="http://localhost:1313/tags/raft/">Raft</a>
+    <a href="http://example.org/tags/raft/">raft</a>
     
 </div>
     </section>

@@ -79,7 +79,7 @@ summaryLength = 200
 [[params.avatar]]
   title = "email"
   url = "mailto:white_ding@163.com"
-  icon = "fa fa-envelope-square"
+  icon = "fas fa-envelope-square"
 [[params.avatar]]
   title = "linkedin"
   url = "https://www.linkedin.com/in/white-ding-7b5151a7/"
@@ -105,14 +105,14 @@ summaryLength = 200
 
 # 配置 utteranc评论,教程参考 https://utteranc.es/
 [params.utteranc]
-  enable = false
-  repo = "your github repo" ##换成自己得
+  enable = true
+  repo = "Shu-HowTing/hugo_blog_comment" ##换成自己得
   issueTerm = "pathname"
   theme = "github-light"
 
 # 配置 waline 评论系统,教程参考 https://waline.js.org/
 [params.waline]
-  enable = true
+  enable = false
   locale = "zh-CN"  # 设置语言
   placeholder = "说点什么吧..."
   serverURL = "https://white-waline.netlify.app/.netlify/functions/comment" #换成你的serverURL

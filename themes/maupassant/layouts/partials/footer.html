@@ -147,3 +147,8 @@
 {{ range .Site.Params.customJS }}
     <script src='{{ "/js/" | relURL }}{{ . }}'></script>
 {{ end }}
+
+<!-- Waline JS -->
+{{ if .Site.Params.waline.enable }}
+    <script src="https://cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline.js"></script>
+{{ end }}

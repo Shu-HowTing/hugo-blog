@@ -58,4 +58,11 @@
     {{ range .Site.Params.customCSS }}
         <link rel="stylesheet" href='{{ "/css/" | relURL }}{{ . }}'>
     {{ end }}
+
+    <!-- Waline CSS -->
+    {{ if .Site.Params.waline.enable }}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@waline/client@v2/dist/waline.css">
+    {{ end }}
+
+
 </head>

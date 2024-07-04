@@ -35,3 +35,6 @@ toc = true
 - 2
 - 3
 - 4
+```py
+import numpy as np
+```

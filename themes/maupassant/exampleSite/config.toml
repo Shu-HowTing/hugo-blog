@@ -61,15 +61,15 @@ disqusShortname = "yourdiscussshortname"  ## 是否开启disqus评论，不要�
   url = "https://www.aliyun.com/acts/limit-buy?userCode=jdg9oj97"
   img = "https://img.alicdn.com/tfs/TB1hblJl7Y2gK0jSZFgXXc5OFXa-750-400.jpg"
 
-## 配置 utteranc评论,教程参考 https://utteranc.es/
-[params.utteranc]
-  enable = true
-  repo = "your github repo" ##换成自己得
-  issueTerm = "pathname"
-  theme = "github-light"
+# ## 配置 utteranc评论,教程参考 https://utteranc.es/
+# [params.utteranc]
+#   enable = true
+#   repo = "your github repo" ##换成自己得
+#   issueTerm = "pathname"
+#   theme = "github-light"
 ## 配置 waline 评论系统,教程参考 https://waline.js.org/
 [params.waline]
-  enable = false
+  enable = true
   placeholder = "说点什么吧..."
   serverURL = "Your waline serverURL" #换成你的serverURL
 ## 开启版权声明，协议名字和链接都可以换
